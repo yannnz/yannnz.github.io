@@ -98,7 +98,7 @@
   }
 
   .grid-hover, li.grid-item, li.grid-item img{
-    width:246px;
+    width:384px;
   }
 
 }
@@ -203,9 +203,9 @@
     max-width:400px;
   }
   
-  .home-sidebar{
+/*  .home-sidebar{
     display:none;
-  }
+  }*/
   
   ul.header-nav{
     width:50%;
@@ -237,9 +237,9 @@
     display:block;
   }
 
-  header.boxed{
+/*  header.boxed{
     display:none !important;
-  }  
+  }  */
   
   #footer-left{text-align:center;}
 
@@ -300,9 +300,9 @@
     max-width:280px;
   }
   
-  .home-sidebar{
+ /* .home-sidebar{
     display:none;
-  }
+  }*/
  
   .one-column, .two-column{
     width:100%;
