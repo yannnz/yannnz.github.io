@@ -50,6 +50,10 @@
 
 }
 
+  .menu-index{
+    display:none;
+  }
+
 
 @media all and (max-width: 1179px) and (min-width: 1024px) {
 
@@ -203,13 +207,16 @@
     max-width:400px;
   }
   
-/*  .home-sidebar{
+  .home-sidebar{
     display:none;
-  }*/
+  }
   
   ul.header-nav{
-    width:50%;
-  
+    display:none; 
+  }
+    
+ .social-icon{
+    display:none;
   }
   
   header li > a{
@@ -237,6 +244,10 @@
     display:block;
   }
 
+
+.content .badge {
+  line-height: 36px;
+}
 /*  header.boxed{
     display:none !important;
   }  */
@@ -300,9 +311,17 @@
     max-width:280px;
   }
   
- /* .home-sidebar{
+  .home-sidebar{
     display:none;
-  }*/
+  }
+
+   ul.header-nav{
+    display:none; 
+  }
+
+  .social-icon{
+    display:none;
+  }
  
   .one-column, .two-column{
     width:100%;
@@ -324,9 +343,9 @@
     margin-bottom:100px;
   }
   
-  header.boxed{
+/*  header.boxed{
     display:none !important;
-  }  
+  }  */
   
   #footer-left{text-align:center;}
   
@@ -334,6 +353,45 @@
     font-size:33px; 
     line-height:50px;
   }
+ /*
+  **************************
+  my role badge
+  **************************
+  */
+.content .badge {
+  line-height: 36px;
+}
+
+
+ .content .text-intro p{
+    margin-bottom:18px;
+  }
+
+.content .text-intro br{
+ display:none;
+}
+
+.content .text-intro2 p{
+    margin-top:18px;
+    margin-bottom:18px;
+  }
+.content .one-column-i{
+  width:100%;
+}
+
+
+.img-bg div:first-child{
+  padding-left:10px;
+}
+.img-bg div:last-child{
+    padding-right:10px;
+}
+}
+.content .img-detail-2{
+
+  padding:10px 10px;
+}
+
 
   /*
   **************************

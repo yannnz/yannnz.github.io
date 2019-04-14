@@ -240,13 +240,13 @@ function hidePreloader() {
   $(".preloader").delay(2000).fadeOut("slow");
 }
 
-/*-------------------------------------------
-Scrollspy
----------------------------------------------*/
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, options);
-  });
+// /*-------------------------------------------
+// Scrollspy
+// ---------------------------------------------*/
+//   document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.scrollspy');
+//     var instances = M.ScrollSpy.init(elems, options);
+//   });
 
 
 
